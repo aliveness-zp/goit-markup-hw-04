@@ -78,6 +78,7 @@ ol {
 /* nav */
 .nav-list {
   display: flex;
+  gap: 50px;
 }
 
 .nav-list-link {
@@ -100,13 +101,10 @@ ol {
   color: var(--accent-color);
 }
 
-.nav-list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 /* contacts */
 .contact-list {
   display: flex;
+  gap: 50px;
   margin-left: auto;
 }
 
@@ -123,10 +121,6 @@ ol {
 .contact-list-link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-}
-
-.contact-list-item:not(:first-child) {
-  margin-left: 50px;
 }
 
 .contact-list-link {
@@ -201,14 +195,7 @@ ol {
 
 .benefits-list {
   display: flex;
-}
-
-/* .benefits-list-item {
-  flex-basis: calc((100% - 90px) / 4);
-} */
-
-.benefits-list-item:not(:last-child) {
-  margin-right: 30px;
+  gap: 30px;
 }
 
 .benefits-list-wrapper {
@@ -254,18 +241,11 @@ ol {
 
 .services-list {
   display: flex;
+  gap: 30px;
 }
 
 .services-list img {
   display: block;
-}
-
-/* .services-list-item {
-  flex-basis: calc((100% - 60px) / 3);
-} */
-
-.services-list-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 /* team */
@@ -276,6 +256,7 @@ ol {
 
 .team-list {
   display: flex;
+  gap: 30px;
 }
 
 .team-list-item {
@@ -283,10 +264,6 @@ ol {
   background: var(--primary-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.team-list-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .team-list-item img {
@@ -342,10 +319,7 @@ ol {
 
 .clients-list {
   display: flex;
-}
-
-.clients-list-item:not(:last-child) {
-  margin-right: 30px;
+  gap: 30px;
 }
 
 .clients-list-link {
@@ -399,28 +373,16 @@ ol {
 }
 
 /* work */
+
 .work-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.work-list-item {
-  /* flex-basis: calc((100% - 60px) / 3); */
-  background: var(--primary-background-color);
-  margin-right: 30px;
-  margin-bottom: 30px;
+  gap: 30px;
 }
 
 .work-list-item:hover,
 .work-list-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.work-list-item:nth-child(3n) {
-  margin-right: 0;
-}
-.work-list-item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
 }
 
 .work-list-link {
